@@ -9,5 +9,5 @@
 body{
     display: flex;
     padding: 0 10px;
-    min-height: ;
+    min-height: 100vh;
 }
