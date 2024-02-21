@@ -49,5 +49,5 @@ form .field input,
 form .message textarea{
     height: 100%;
     width: 100%;
-    outline: ;
+    outline: none;
 }
