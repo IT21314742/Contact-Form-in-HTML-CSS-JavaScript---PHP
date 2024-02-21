@@ -23,5 +23,5 @@ body{
     font-size: 22px;
     font-weight: 600;
     padding: 20px 30px;
-    border-bottom: 1px;
+    border-bottom: 1px solid;
 }
