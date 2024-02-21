@@ -37,5 +37,5 @@ form .dbl-field{
 .dbl-field .field{
     height: 50px;
     position: relative;
-    width: calc();
+    width: calc(100%);
 }
