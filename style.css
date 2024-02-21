@@ -46,4 +46,4 @@ form .dbl-field {
     width: calc(100% / 2 - 13px);
 }
 form .field input,
-form .message textarea
+form .message textarea{}
