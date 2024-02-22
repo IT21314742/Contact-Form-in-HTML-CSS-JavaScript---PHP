@@ -73,5 +73,5 @@ form .message textarea:focus {
     color: #bfbfbf;
     font-size: 17px;
     pointer-events: none;
-    transform: ;
+    transform: translateY();
 }
