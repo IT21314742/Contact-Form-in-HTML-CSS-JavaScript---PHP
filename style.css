@@ -61,5 +61,5 @@ form .message textarea::placeholder{
 }
 form .field input:focus,
 form .message textarea:focus{
-    
+    border: ;
 }
