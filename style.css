@@ -69,5 +69,5 @@ form .message textarea:focus {
 .wrapper form i{
     position: absolute;
     left: 18px;
-    top: ;
+    top: 50%;
 }
