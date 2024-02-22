@@ -45,8 +45,9 @@ form .dbl-field {
     position: relative;
     width: calc(100% / 2 - 13px);
 }
+
 form .field input,
-form .message textarea{
+form .message textarea {
     height: 100%;
     width: 100%;
     outline: none;
@@ -55,11 +56,13 @@ form .message textarea{
     border-radius: 5px;
     border: 1px solid #bfbfbf;
 }
+
 form .field input::placeholder,
-form .message textarea::placeholder{
+form .message textarea::placeholder {
     color: #bfbfbf;
 }
+
 form .field input:focus,
-form .message textarea:focus{
+form .message textarea:focus {
     border: 2px solid #0d6efd;
 }
