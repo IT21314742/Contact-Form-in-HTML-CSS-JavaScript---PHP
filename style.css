@@ -56,4 +56,6 @@ form .message textarea{
     border: 1px solid #bfbfbf;
 }
 form .field input:focus,
-form .message textarea::placeholder{}
+form .message textarea::placeholder{
+    
+}
