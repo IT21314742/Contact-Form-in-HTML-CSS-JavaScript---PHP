@@ -72,5 +72,5 @@ form .message textarea:focus {
     top: 50%;
     color: #bfbfbf;
     font-size: 17px;
-    pointer-events: ;
+    pointer-events: none;
 }
