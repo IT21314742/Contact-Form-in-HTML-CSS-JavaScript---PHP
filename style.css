@@ -55,7 +55,7 @@ form .message textarea{
     border-radius: 5px;
     border: 1px solid #bfbfbf;
 }
-form .field input:focus,
+form .field input::placeholder,
 form .message textarea::placeholder{
     color: #bfbfbf;
 }
