@@ -75,4 +75,6 @@ form .message textarea:focus {
     pointer-events: none;
     transform: translateY(-50%);
 }
-form .message
+form .message{
+    
+}
