@@ -59,4 +59,4 @@ form .field input:focus,
 form .message textarea::placeholder{
     color: #bfbfbf;
 }
-form .field input
+form .field input:focus
