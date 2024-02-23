@@ -100,7 +100,8 @@ form .button-area {
     display: flex;
     align-items: center;
 }
-.button-area button{
+
+.button-area button {
     font-size: 18px;
     border: none;
     color: #fff;
