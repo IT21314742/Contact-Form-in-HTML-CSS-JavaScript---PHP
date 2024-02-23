@@ -85,5 +85,5 @@ form .message i{
 form .message textarea{
     min-width: 100%;
     max-width: 100%;
-    max-height: ;
+    max-height: 120px;
 }
