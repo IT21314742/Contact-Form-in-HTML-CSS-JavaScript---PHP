@@ -84,4 +84,5 @@ form .message i{
 }
 form .message textarea{
     min-width: 100%;
+    max-width: ;
 }
