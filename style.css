@@ -110,7 +110,8 @@ form .button-area {
     background: #0d6efd;
     padding: 13px 25px;
 }
-.button-area span{
+
+.button-area span {
     color: #0d6efd;
     margin-left: 30px;
     display: none;
