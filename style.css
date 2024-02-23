@@ -66,7 +66,8 @@ form .field input:focus,
 form .message textarea:focus {
     border: 2px solid #0d6efd;
 }
-.wrapper form i{
+
+.wrapper form i {
     position: absolute;
     left: 18px;
     top: 50%;
@@ -75,14 +76,17 @@ form .message textarea:focus {
     pointer-events: none;
     transform: translateY(-50%);
 }
-form .message{
+
+form .message {
     position: relative;
 }
-form .message i{
+
+form .message i {
     top: 30px;
     font-size: 20px;
 }
-form .message textarea{
+
+form .message textarea {
     min-width: 100%;
     max-width: 100%;
     max-height: 120px;
@@ -90,7 +94,8 @@ form .message textarea{
     max-height: 300px;
     padding: 15px 20px 0 48px;
 }
-form .button-area{
+
+form .button-area {
     margin: 25px 0;
     display: flex;
     align-items: center;
