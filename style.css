@@ -135,6 +135,6 @@ form .button-area {
         resize: none;
     }
     form .button-area{
-        
+        flex-direction: ;
     }
 }
