@@ -122,6 +122,6 @@ form .button-area {
     }
     form .dbl-field{
         margin-bottom: 0px;
-        flex-direction: ;
+        flex-direction: column;
     }
 }
