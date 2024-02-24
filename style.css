@@ -116,13 +116,16 @@ form .button-area {
     margin-left: 30px;
     display: none;
 }
-@media(max-width: 600px){
-    .wrapper header{
+
+@media(max-width: 600px) {
+    .wrapper header {
         text-align: center;
     }
-    form .dbl-field{
+
+    form .dbl-field {
         margin-bottom: 0px;
         flex-direction: column;
     }
+
     .dbl-field .field
 }
