@@ -137,5 +137,5 @@ form .button-area {
     form .button-area{
         flex-direction: column;
     }
-    .button-area button
+    .button-area button{}
 }
