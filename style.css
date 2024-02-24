@@ -140,5 +140,7 @@ form .button-area {
     .button-area button{
         width: 100%;
     }
-    .button-area span{}
+    .button-area span{
+        
+    }
 }
