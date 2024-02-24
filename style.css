@@ -134,5 +134,7 @@ form .button-area {
     form .message .textarea{
         resize: none;
     }
-    form .button-area{}
+    form .button-area{
+        
+    }
 }
