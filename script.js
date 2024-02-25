@@ -1,2 +1,2 @@
 const form = document.querySelector("form"),
-statusTxt = form.querySelector(".button")
+statusTxt = form.querySelector(".button-area")
