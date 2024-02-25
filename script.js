@@ -1,1 +1,1 @@
-const form = document
+const form = document.getElementById
