@@ -3,5 +3,5 @@ const form = document.querySelector("form"),
 
 form.onsubmit = (e) => {
     e.preventDefault(); //preventing form from auto sumbitting
-    statusTxt.style.color = "#0D6EFD"
+    statusTxt.style.color = "#0D6EFD";
 }
