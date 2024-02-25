@@ -7,5 +7,5 @@ form.onsubmit = (e) => {
     statusTxt.style.display = "block";
 
     let xhr = new XMLHttpRequest(); //creating new xml object
-    xhr.open
+    xhr.open()
 }
