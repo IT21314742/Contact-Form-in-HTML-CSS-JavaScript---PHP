@@ -9,6 +9,6 @@ form.onsubmit = (e) => {
     let xhr = new XMLHttpRequest(); //creating new xml object
     xhr.open("POST", "message.php", true); //sending POST request to message.php
     xhr.onload = ()={ //once AJAX loaded
-    if(xhr.readyState == 4 && xhr.status == 200){//if}
+    if(xhr.readyState == 4 && xhr.status == 200){//if ajax}
     }
 }
