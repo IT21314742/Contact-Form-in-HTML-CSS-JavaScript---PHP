@@ -8,5 +8,5 @@ form.onsubmit = (e) => {
 
     let xhr = new XMLHttpRequest(); //creating new xml object
     xhr.open("POST", "message.php", true); //sending POST request to message.php
-    xhr.onload = ()={ //}
+    xhr.onload = ()={ //once}
 }
