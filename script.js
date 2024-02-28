@@ -10,6 +10,6 @@ form.onsubmit = (e) => {
     xhr.open("POST", "message.php", true); //sending POST request to message.php
     xhr.onload = ()=>{ //once AJAX loaded
     if(xhr.readyState == 4 && xhr.status == 200){//if ajax response status is 200 and ready status is no any error}
-        let response = xhr.response; //storing ajax response in a
+        let response = xhr.response; //storing ajax response in a response
     }
 }
