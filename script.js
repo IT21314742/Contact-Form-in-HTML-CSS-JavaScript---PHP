@@ -19,7 +19,7 @@ form.onsubmit = (e) => {
             form.reset();
             setTimeout(()=>{
                 statusTxt.style.display = "none";
-            }, 3000) // status
+            }, 3000) // status text
         }
     }
 }
