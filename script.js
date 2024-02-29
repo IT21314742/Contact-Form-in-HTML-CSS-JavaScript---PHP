@@ -18,7 +18,7 @@ form.onsubmit = (e) => {
         }else{
             form.reset();
             setTimeout(()=>{
-                statusTxt.style.display =
+                statusTxt.style.display = 
             })
         }
     }
