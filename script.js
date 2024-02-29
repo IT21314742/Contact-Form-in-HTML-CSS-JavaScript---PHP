@@ -17,7 +17,9 @@ form.onsubmit = (e) => {
             statusTxt.style.color = "red";
         }else{
             form.reset();
-            setTimeout(()=>{})
+            setTimeout(()=>{
+                
+            })
         }
     }
 }
