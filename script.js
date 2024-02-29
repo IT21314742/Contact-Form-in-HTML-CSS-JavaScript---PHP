@@ -21,6 +21,7 @@ form.onsubmit = (e) => {
                 statusTxt.style.display = "none";
             }, 3000) // status text will dissapear in 3 seconds.
         }
+
         
     }
 }
