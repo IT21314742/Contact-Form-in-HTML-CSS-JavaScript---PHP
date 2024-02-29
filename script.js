@@ -15,6 +15,6 @@ form.onsubmit = (e) => {
         //if response is an error like below one of them status color switch to red if not form will reset
         if(response,indexeOf("Email and message is required!") != -1 || response.indexeOf("Enter a valid email Email address") || response.indexeOf("Sorry, faild to send your message!")){
             statusTxt.style.color = "red";
-        }
+        }else
     }
 }
