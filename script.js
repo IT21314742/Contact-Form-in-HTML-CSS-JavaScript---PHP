@@ -25,3 +25,4 @@ form.onsubmit = (e) => {
         statusTxt.innerText = response;
     }
 }
+}
