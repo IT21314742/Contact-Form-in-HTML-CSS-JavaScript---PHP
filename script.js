@@ -16,7 +16,7 @@ form.onsubmit = (e) => {
         if(response,indexeOf("Email and message is required!") != -1 || response.indexeOf("Enter a valid email Email address") || response.indexeOf("Sorry, faild to send your message!")){
             statusTxt.style.color = "red";
         }else{
-            form.reset()
+            form.reset();
         }
     }
 }
