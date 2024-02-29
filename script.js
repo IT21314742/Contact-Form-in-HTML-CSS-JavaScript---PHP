@@ -19,7 +19,7 @@ form.onsubmit = (e) => {
             form.reset();
             setTimeout(()=>{
                 statusTxt.style.display = "none";
-            // }, 3000) /
+            }, 3000) //
         }
     }
 }
