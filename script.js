@@ -8,24 +8,24 @@ form.onsubmit = (e) => {
 
     let xhr = new XMLHttpRequest(); //creating new xml object
     xhr.open("POST", "message.php", true); //sending POST request to message.php
-    xhr.onload = ()=>{ //once AJAX loaded
-    if(xhr.readyState == 4 && xhr.status == 200){//if ajax response status is 200 and ready status is no any error}
-        let response = xhr.response; //storing ajax response in a response variable
+    xhr.onload = () => { //once AJAX loaded
+        if (xhr.readyState == 4 && xhr.status == 200) {//if ajax response status is 200 and ready status is no any error}
+            let response = xhr.response; //storing ajax response in a response variable
 
-        //if response is an error like below one of them status color switch to red if not form will reset
-        if(response,indexeOf("Email and message is required!") != -1 || response.indexeOf("Enter a valid email Email address") || response.indexeOf("Sorry, faild to send your message!")){
-            statusTxt.style.color = "red";
-        }else{
-            form.reset();
-            setTimeout(()=>{
-                statusTxt.style.display = "none";
-            }, 3000) // status text will dissapear in 3 seconds.
+            //if response is an error like below one of them status color switch to red if not form will reset
+            if (response, indexeOf("Email and message is required!") != -1 || response.indexeOf("Enter a valid email Email address") || response.indexeOf("Sorry, faild to send your message!")) {
+                statusTxt.style.color = "red";
+            } else {
+                form.reset();
+                setTimeout(() => {
+                    statusTxt.style.display = "none";
+                }, 3000) // status text will dissapear in 3 seconds.
+            }
+
+            statusTxt.innerText = response;
         }
-
-        statusTxt.innerText = response;
     }
-}
 
-let formData = new FormData(form); //Creating new FormData object. this object is used to send the data
-xhr.send(formData); //sending form data
+    let formData = new FormData(form); //Creating new FormData object. this object is used to send the data
+    xhr.send(formData); //sending form data
 }
