@@ -27,5 +27,5 @@ form.onsubmit = (e) => {
 }
 
 let formData = new FormData(form); //Creating new FormData object. this object is used to send the data
-xhr.send(formDa)
+xhr.send(formDat)
 }
