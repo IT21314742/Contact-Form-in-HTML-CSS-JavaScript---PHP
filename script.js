@@ -26,5 +26,5 @@ form.onsubmit = (e) => {
     }
 }
 
-let formData = new FormData(fo)
+let formData = new FormData(for)
 }
