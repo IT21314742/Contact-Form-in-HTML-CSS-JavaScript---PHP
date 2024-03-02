@@ -3,5 +3,5 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $website = $_POST['website'];
-$message = $_
+$message = $_POST
 ?>
