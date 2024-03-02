@@ -1,5 +1,5 @@
 <?php
 $name = $_POST['name'];
-$email = $_
+$email = $_POST
 
 ?>
