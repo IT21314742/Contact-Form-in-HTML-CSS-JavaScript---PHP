@@ -1,4 +1,4 @@
 <?php
-$name = $_
+$name = $_POST
 
 ?>
