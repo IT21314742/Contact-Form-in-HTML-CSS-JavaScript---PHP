@@ -6,6 +6,6 @@ $website = $_POST['website'];
 $message = $_POST['message'];
 
 if(!empty($email) && !empty ($message)){  //if email and message field is not empty
-    if
+    if()
 }
 ?>
