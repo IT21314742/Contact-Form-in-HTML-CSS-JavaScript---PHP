@@ -5,5 +5,5 @@ $phone = $_POST['phone'];
 $website = $_POST['website'];
 $message = $_POST['message'];
 
-if(!empty($email) && )
+if(!empty($email) && !)
 ?>
