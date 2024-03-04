@@ -9,7 +9,7 @@ if(!empty($email) && !empty ($message)){  //if email and message field is not em
     if(filter_var($email, FILTER_VALIDATE_EMAIL)){ //validate user entered Email
     $receiver = "adhikurera@gmail.com"; //validate receivered email address
     $subject =  "form: $name <$email>"; //subject of the email. subject looks like from:adhikurera@gmail.com
-    //merging concating all user values inside body variable. \n is used for    
+    //merging concating all user values inside body variable. \n is used for new    
     }
 }
 ?>
