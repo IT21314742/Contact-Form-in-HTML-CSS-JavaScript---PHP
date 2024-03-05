@@ -12,7 +12,7 @@ if(!empty($email) && !empty ($message)){  //if email and message field is not em
     //merging concating all user values inside body variable. \n is used for new line
     $body = "Name: $name\nEmail: $email\nPhone: $Phone\nWebsite:    $website\n\nMessage: $message\n\nRegards,\n$name";
     $sender = "From: $email"; //sender email
-    if(mail($receiver, $subject, $body, $sender)){  
+    if(mail($receiver, $subject, $body, $sender)){  //
 
     }
     }
