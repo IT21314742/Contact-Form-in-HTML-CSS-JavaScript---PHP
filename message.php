@@ -15,7 +15,7 @@ if(!empty($email) && !empty ($message)){  //if email and message field is not em
     if(mail($receiver, $subject, $body, $sender)){  //mail() is a inbuilt php function to send a mail
         echo "Your message has been sent";
     }else{
-        echo "Sorry"
+        echo "Sorry, "
     }
     }
 }
