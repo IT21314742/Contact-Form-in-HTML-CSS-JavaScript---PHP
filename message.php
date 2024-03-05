@@ -13,7 +13,7 @@ if(!empty($email) && !empty ($message)){  //if email and message field is not em
     $body = "Name: $name\nEmail: $email\nPhone: $Phone\nWebsite:    $website\n\nMessage: $message\n\nRegards,\n$name";
     $sender = "From: $email"; //sender email
     if(mail($receiver, $subject, $body, $sender)){  //mail() is a inbuilt php function to send a mail
-        echo "Your message has been sent"
+        echo "Your message has been sent";
     }
     }
 }
