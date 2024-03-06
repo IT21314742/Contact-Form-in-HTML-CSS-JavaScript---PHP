@@ -19,6 +19,6 @@ if(!empty($email) && !empty ($message)){  //if email and message field is not em
     }
 
     }else{
-        echo "Enter a valid emai"
+        echo "Enter a valid email"
     }
 }
