@@ -22,5 +22,5 @@ if(!empty($email) && !empty ($message)){  //if email and message field is not em
         echo "Enter a valid email address!";
     }
 }else{
-    echo "Email and message "
+    echo "Email and message i"
 }
