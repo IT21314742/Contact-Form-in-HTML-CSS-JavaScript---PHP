@@ -17,6 +17,6 @@ if(!empty($email) && !empty ($message)){  //if email and message field is not em
     }else{
         echo "Sorry, faild to send your message!";
     }
-    
-    }
+
+    }else
 }
