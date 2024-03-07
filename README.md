@@ -1,1 +1,1 @@
-This contact form is a fully functional web application built using HTML, CSS, JavaScript, and PHP. 
+This contact form is a fully functional web application built using HTML, CSS, JavaScript, and PHP. It provides users with a straightforward way to send messages directly to the website owner's email address.
