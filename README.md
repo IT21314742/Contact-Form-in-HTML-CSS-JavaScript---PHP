@@ -1,2 +1,1 @@
-# Contact Form in HTML CSS JavaScript & PHP
- Contact Form in HTML CSS JavaScript & PHP
+This contact form is a fully functional web application built using HTML, CSS, JavaScript, and PHP. 
