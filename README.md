@@ -11,6 +11,6 @@ Key Features:
 
 **Clone** the repository to access the necessary files.
 **Configure** the PHP script with your email settings to enable email functionality.
-**Embed** the provided HTML, CSS, and JavaScript code snippets into your web page.
+**Embed** the provided **HTML**, **CSS**, and **JavaScript** code snippets into your web page.
 
 Feel free toCustomize styles and settings as needed to integrate the Contact Form seamlessly into your website.
